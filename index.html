@@ -11,13 +11,23 @@
     <title>Log-in</title>
 </head>
 <body>
-    <div class="form-container">
-        <div class="img-form">
-            <img src="./assets/img/form-img.png" alt="imagem-formulario">
+    <main class="login">
+        <div class="login__container">
+            <div class="login__container-img">
+                <img src="./assets/img/form-img.png" class="form-img" alt="form-img">
+            </div>
+            <div class="login__container-form">
+                <h1 class="login__title">Welcome back!</h1>
+                <form class="login__form">
+                    <input type="email" class="login__input" placeholder="email">
+                    <span class="login__input-border"></span>
+                    <input type="password" class="login__input" placeholder="senha">
+                    <span class="login__input-border"></span>
+                    <button class="button__submit"></button>
+                    <a href="#" class="login__reset">Esqueci a senha</a>
+                </form>
+            </div>
         </div>
-        <div class="form">
-            <form action=""></form>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
